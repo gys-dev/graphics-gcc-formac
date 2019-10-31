@@ -54,7 +54,7 @@ Keep session terminal. You'll need it to complie c++ source file. Keep working a
 ```
 cd home && ls
 ```
-You'll see all file that you just mount. Not we done to setup. 
+You'll see all file that you just mount. Now we done to setup. 
 ### COMPLIE
 ```
 g++ [source_file_name].cpp -o  [destination_file_name].out  -lgraph
