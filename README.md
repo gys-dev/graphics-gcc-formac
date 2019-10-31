@@ -42,10 +42,12 @@ docker run -it \
 -e DISPLAY=192.168.1.3:0 \
 ducy23061999/graphic-gcc bin/bash \
 ```
-Chane: 
+*Change*:
+<br> 
 [path_to_working_directory]: c++ source list you put in a directory. Remember remove [] =))
 <br>
 192.168.1.3:0: Your ip address. Change [IP]:0. Type ifconfig to see all available ip
+<br>
 
 Keep session terminal. You'll need it to complie c++ source file. Keep working and check it out
 
