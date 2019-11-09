@@ -5,6 +5,7 @@ I must use graphics.h library to implement that algorithm. Sad thing it not supp
 So i figure out use docker to use linux by virural machine, write some script and hope your guy enjoy.
 
 Here is my introduction!
+![img](img.png)
 
 # INSTALL 
 ## INSTALL COMPONENTS
@@ -37,16 +38,16 @@ docker pull ducy23061999/graphic-gcc
 
 ```
 docker run -it \
---name graphicgcc \     
+--name graphicgcc \
 -v [path_to_working_directory]:/home \
 -e DISPLAY=192.168.1.3:0 \
-ducy23061999/graphic-gcc bin/bash \
+ducy23061999/graphic-gcc bin/bash
 ```
 *Change*:
 <br> 
-[path_to_working_directory]: c++ source list you put in a directory. Remember remove [] =))
+**[path_to_working_directory]** : c++ source list you put in a directory. Remember remove [] =))
 <br>
-192.168.1.3:0: Your ip address. Change [IP]:0. Type ifconfig to see all available ip
+**192.168.1.3:0** : Your ip address. Change [IP]:0. Type ifconfig to see all available ip
 <br>
 
 Keep session terminal. You'll need it to complie c++ source file. Keep working and check it out
